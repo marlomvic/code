@@ -1,0 +1,157 @@
+/*General*/
+
+body{
+  text-align: center;
+  margin:0;
+  padding: 0;
+  color: black;
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: bold;
+  background:radial-gradient(yellow,lightgreen);
+}
+/*disposicion horizontal*/
+.menuheader *{
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 2%;
+}
+
+
+
+
+.menu1{
+  background-color: cyan;
+  border-radius: 40% 40%;
+  padding-right: 2%;
+  padding-bottom: 1%;
+}
+.menu1 li a{
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.menu2 li a{
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.menu2 li a:hover{
+  background-color: yellow;
+  border-radius: 25%;
+}
+
+
+.menu1 li a:hover{
+  background-color: yellow;
+  border-radius: 25%;
+}
+
+
+.menu2{
+  background-color: cyan;
+  border-radius: 40%;
+  padding-right: 2%;
+  padding-bottom: 1%;
+}
+
+
+
+
+.imgmenu img {
+  border-radius: 50%;
+  margin: 0;
+}
+
+
+
+.cuerpo{
+  background-color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 25% 15%;
+
+
+}
+.cuerpo .ultimasf{
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.cuerpo .ultimasf .fiesta1{
+padding-top: 5%;
+
+}
+
+
+.cuerpo .ultimasf .fiesta2{
+  padding-top: 8%;
+  padding-bottom: 15%;
+}
+.cuerpo a{
+  text-decoration: none;
+  color: red;
+}
+
+
+
+.img1 img{
+  position: absolute;
+  margin-top: 21%;
+  left: 0;
+  width: 19%;
+}
+
+
+.img2 img{
+  position: absolute;
+  margin-top: 25%;
+  right: 0;
+  width: 18%;
+}
+
+.fin li{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5%;
+  padding-right: 10%;
+
+
+}
+
+
+.fin li img{
+  width: 50px;
+  height: 50px;}
+
+
+  .fin li a{
+    text-decoration: none;
+    color: black;
+  }
+
+
+
+
+
+
+
+.contact{
+  padding-top: 10%;
+  padding-bottom: 7%;
+}
+
+
+
+.fiestas{
+  padding-top: 10%;
+  padding-bottom: 7%;
+}
+
+.acerca{
+  padding-top: 10%;
+  padding-bottom: 7%;
+}
