@@ -10,7 +10,7 @@ body{
   font-weight: bold;
   background:radial-gradient(yellow,lightgreen);
 }
-/*disposicion horizontal*/
+/*disposicion horizontal y ajustes del menu*/
 .menuheader *{
   display: inline-block;
   text-align: center;
@@ -20,7 +20,7 @@ body{
 
 
 
-
+/*menu izquierdo del header*/
 .menu1{
   background-color: cyan;
   border-radius: 40% 40%;
@@ -33,6 +33,7 @@ body{
   color: black;
 }
 
+/*menu de la derecha del header*/
 .menu2 li a{
   padding: 5px;
   text-decoration: none;
@@ -43,14 +44,14 @@ body{
   background-color: yellow;
   border-radius: 25%;
 }
-
+/*menu izquierdo del header*/
 
 .menu1 li a:hover{
   background-color: yellow;
   border-radius: 25%;
 }
 
-
+/*menu de la derecha del header*/
 .menu2{
   background-color: cyan;
   border-radius: 40%;
@@ -60,13 +61,13 @@ body{
 
 
 
-
+/*imagen central del header*/
 .imgmenu img {
   border-radius: 50%;
   margin: 0;
 }
 
-
+/*cuerpo de la web*/
 
 .cuerpo{
   background-color: white;
