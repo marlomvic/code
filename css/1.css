@@ -137,6 +137,12 @@ padding-top: 5%;
   }
 
 
+  /*rotacion imagen twitter*/
+  .fin li img:hover{
+      transform: rotate(1turn);
+  }
+
+
 
 
 
