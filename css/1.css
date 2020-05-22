@@ -61,7 +61,7 @@ canvas{
   width: var(--container-width);
   height: var(--container-height);
   margin-left: -350px;
-  margin-top: -200px;
+  margin-top: -190px;
   top: 50%;
   left: 50%;
   position: absolute;
@@ -123,21 +123,6 @@ canvas{
     font-size: 18px;
 }
 
-
-
-
-
-/*menu de la derecha del header*/
-.menu2 li a{
-  padding: 5px;
-  text-decoration: none;
-  color: black;
-}
-
-.menu2 li a:hover{
-  background-color: yellow;
-  border-radius: 25%;
-}
 /*menu izquierdo del header*/
 
 /*.menu1 li a:hover{
@@ -146,19 +131,13 @@ canvas{
 }
 */
 /*menu de la derecha del header*/
-.menu2{
-  background-color: cyan;
-  border-radius: 40%;
-  padding-right: 2%;
-  padding-bottom: 1%;
-}
-
 
 
 /*imagen central del header*/
 .imgmenu img {
   border-radius: 50%;
   margin: 0;
+  opacity: 0.7;
 }
 
 /*cuerpo de la web*/
@@ -168,7 +147,7 @@ canvas{
   margin-left: 20%;
   margin-right: 20%;
   border-radius: 25% 15%;
-  margin-top: 4%;
+  margin-top: 8%;
 
 
 
@@ -199,7 +178,7 @@ padding-top: 5%;
 
 .img1 img{
   position: absolute;
-  margin-top: 21%;
+  margin-top: 26%;
   left: 0;
   width: 19%;
 }
@@ -207,7 +186,7 @@ padding-top: 5%;
 
 .img2 img{
   position: absolute;
-  margin-top: 25%;
+  margin-top: 30%;
   right: 0;
   width: 18%;
 }
@@ -217,8 +196,8 @@ padding-top: 5%;
 .fin li{
   display: inline-block;
   vertical-align: middle;
-  margin-left: 5%;
-  padding-right: 10%;
+  margin-left: 2%;
+  padding-right: 8%;
 
 
 }
