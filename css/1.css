@@ -1,15 +1,14 @@
 /*General*/
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 
-body{
+body,html{
   text-align: center;
   margin:0;
   padding: 0;
-  background: linear-gradient(
-        #243545,
-        #243545 var(--line-offset),
-        #dedede var(--line-offset)
-    );
+
+background-image: url('https://external-preview.redd.it/Tf2MC-orVRAI8OL5tjyF4k4H2Q6QLHTWllekGfqdt3c.png?width=960&crop=smart&auto=webp&s=be4ab9a2fa3ca2f7011799377f118a8dbc64aacb');
+background-size: cover;
+background-attachment: fixed;
     width: 100vw;
     height: 100vh;
     font-family: 'Lexend Deca', sans-serif;
@@ -25,6 +24,15 @@ body{
     --container-height: 400px;
     --line-offset: calc((100% - var(--container-height))/ 2 + var(--menu-item-size) + 0.6em);
 }
+
+canvas{
+  filter: blur(1px);
+  position: absolute;
+  left: 0;
+}
+
+
+
 /*disposicion horizontal y ajustes del menu*/
 .menuheader *{
   display: inline-block;
