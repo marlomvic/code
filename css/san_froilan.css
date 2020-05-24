@@ -1,0 +1,248 @@
+/*General*/
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+body,html{
+  text-align: center;
+  margin:0;
+  padding: 0;
+
+background-image: url('https://external-preview.redd.it/Tf2MC-orVRAI8OL5tjyF4k4H2Q6QLHTWllekGfqdt3c.png?width=960&crop=smart&auto=webp&s=be4ab9a2fa3ca2f7011799377f118a8dbc64aacb');
+background-size: cover;
+background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #878787;
+
+    --menu-item-size: 50px;
+    --green-color: #329680;
+    --blue-color: #099c95;
+    --dark-green-color: #175b52;
+    --white-color: #FFF;
+    --gray-color: #EDEDED;
+    --container-width: 700px;
+    --container-height: 400px;
+    --line-offset: calc((100% - var(--container-height))/ 2 + var(--menu-item-size) + 0.6em);
+}
+
+canvas{
+  filter: blur(1px);
+  position: absolute;
+  left: 0;
+}
+
+
+
+/*disposicion horizontal y ajustes del menu*/
+.menuheader *{
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 2%;
+}
+
+
+
+/*menu izquierdo del header*/
+/*.menu1{
+  background-color: cyan;
+  border-radius: 40% 40%;
+  padding-right: 2%;
+  padding-bottom: 1%;
+}
+.menu1 li a{
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+*/
+
+.menu1{
+  width: var(--container-width);
+  height: var(--container-height);
+  margin-left: -350px;
+  margin-top: -190px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  z-index: 1;
+}
+ .menu1 ul{
+   display: flex;
+    list-style: none;
+    margin: auto 0;
+    padding: 0.6em 0 0 0;
+
+ }
+
+.menu1 > ul li a{
+  box-sizing: border-box;
+   height: var(--menu-item-size);
+   width: calc(3.5 * var(--menu-item-size));
+   line-height: var(--menu-item-size);
+   padding: 0 2em;
+   margin: 1px;
+   transition: 0.5s linear all;
+   background: var(--green-color);
+   color: var(--dark-green-color);
+   cursor: pointer;
+   font-size: 16px;
+   user-select: none;
+   clip-path: polygon(10% 0%, 0% 100%, 95% 100%, 100% 50%, 95% 0%);
+ shape-outside: polygon(10% 0%, 0% 100%, 95% 100%, 100% 50%, 95% 0%);
+}
+
+
+
+.menu1 > ul li:hover:not(.activo) a{
+    background: linear-gradient(to right, var(--green-color), var(--blue-color));
+    color: var(--white-color);
+}
+
+.menu1 > ul li:not(.p) a{
+    clip-path: polygon(10% 0%, 0% 100%, 95% 100%, 100% 50%, 95% 0%);
+    shape-outside: polygon(10% 0%, 0% 100%, 95% 100%, 100% 50%, 95% 0%);
+}
+
+
+.menu1 > ul li:active:not(.activo) a,
+.menu1 > ul li:active:not(.p) a{
+    background: var(--blue-color);
+    color: var(--white-color);
+}
+
+.menu1 > ul li a:hover i:not(li.activo) {
+    color: #175c58;
+}
+
+.menu1 .activo a{
+    color: var(--white-color);
+    background: var(--blue-color);
+    cursor: default;
+    text-shadow: 1px 1px 1px var(--dark-green-color);
+    font-size: 18px;
+}
+
+/*menu izquierdo del header*/
+
+/*.menu1 li a:hover{
+  background-color: yellow;
+  border-radius: 25%;
+}
+*/
+/*menu de la derecha del header*/
+
+
+/*imagen central del header*/
+.imgmenu img {
+  border-radius: 50%;
+  margin: 0;
+  opacity: 0.7;
+}
+
+/*cuerpo de la web*/
+
+.cuerpo{
+  background-color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 25% 15%;
+  margin-top: 8%;
+
+
+
+}
+.cuerpo .ultimasf{
+  padding-top: 10%;
+  padding-bottom: 5%;
+  margin-right: 7%;
+  margin-left: 7%;
+}
+
+.cuerpo .ultimasf .fiesta1{
+padding-top: 5%;
+
+}
+
+
+.cuerpo .ultimasf .fiesta2{
+  padding-top: 8%;
+  padding-bottom: 15%;
+}
+.cuerpo a{
+  text-decoration: none;
+  color: red;
+}
+.cuerpo img{
+	margin: 20px;
+	float: left;
+}
+
+
+
+.img1 img{
+  position: absolute;
+  margin-top: 26%;
+  left: 0;
+  width: 19%;
+}
+
+
+.img2 img{
+  position: absolute;
+  margin-top: 30%;
+  right: 0;
+  width: 18%;
+}
+
+/*footer de la web*/
+
+.fin li{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2%;
+  padding-right: 8%;
+
+
+}
+
+
+.fin li img{
+  width: 50px;
+  height: 50px;}
+
+
+  .fin li a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+  /*rotacion imagen twitter*/
+  .fin li a img:hover{
+      transform:rotate(1turn);
+      transition: 0.5s;
+  }
+
+
+
+
+
+
+
+.contact{
+  padding-top: 10%;
+  padding-bottom: 7%;
+}
+
+
+
+.fiestas{
+  padding-top: 10%;
+  padding-bottom: 7%;
+}
+
+.acerca{
+  padding-top: 10%;
+  padding-bottom: 7%;
+}
